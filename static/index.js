@@ -109,8 +109,8 @@ scorecardData.forEach((data, index) => {
   tbodyInnerHtml += `
         <tr>
         <td class="tabledata d1">
-        <a href="${ data.wiki }" target="_blank" id="Batsman Wiki">${ data.name }</a>
-            <span class="wicketState">${ data.wicketStatus }</span>
+          <a href="${ data.wiki }" target="_blank" id="Batsman Wiki">${ data.name }</a>
+          <span class="wicketState">${ data.wicketStatus }</span>
           </td>
           <td class="tabledata">${ data.runs }</td>
           <td class="tabledata">${ data.balls }</td>
