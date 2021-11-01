@@ -41,6 +41,7 @@
 }
 
 .scorecard{
+  display: flex;
   overflow: auto;
   margin-top: 50px;
 }
@@ -90,4 +91,9 @@ a {
   color: #9e9e9e;
   text-transform: none;
   font-size: 12px;
+}
+
+.img {
+  width: 400px;
+  height: auto;
 }
